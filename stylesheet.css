@@ -1,0 +1,120 @@
+html {
+	cursor: url('Images/troopercursor.png'), auto;
+background-image: radial-gradient(circle, #912628, #772028, #5d1b25, #441720, #772028, #5d1b25, #2b1218);
+	
+
+}
+div a.cursor:hover {
+	cursor: url('Images/vader.png'), auto;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+	grid-gap: 2vh;
+}
+.caption .captiontext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.caption:hover .captiontext {
+    visibility: visible;
+}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	color: white;
+	font-family: Palatino;
+}
+
+h3 {
+	font-size: 41px;
+	text-align: center;
+	color: white;
+	font-family: Palatino;
+}
+
+
+p {
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	font-family: Palatino;
+}
+
+.sidebar {
+	background-color: rgba(255,71,68,0.4);
+	padding: 1em;
+	grid-column: 1/3;
+	grid-row: 1/10;
+	border: 1px black solid;
+}
+
+.title {
+	background-color: rgba(255,71,68,0.4);
+	padding: 1em;
+	grid-column: 4/9;
+	grid-row: 1/2;
+	border: 1px black solid;
+}
+.body {
+	background-color: rgba(255,71,68,0.4);
+	padding: 1em;
+	grid-column: 4/9;
+	grid-row: 2/8;
+	border: 1px black solid;
+}
+
+.titlebody {
+	background-color: rgba(255,71,68,0.4);
+	padding: 1em;
+	grid-column: 4/9;
+	grid-row: 2/5;
+	border: 1px black solid;
+}
+
+{
+	background-color: rgba(255,71,68,0.4);
+	padding: 1em;
+	grid-column: 1/9;
+	grid-row: 1/2;
+	border: 1px black solid;
+}
+
+.navbar {
+    background-color: #912628;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #2b1218;
+    color: white;
+}
