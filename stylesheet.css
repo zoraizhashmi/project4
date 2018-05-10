@@ -53,6 +53,10 @@ p {
 	font-family: Palatino;
 }
 
+a {
+	color: white;
+}
+
 .sidebar {
 	background-color: rgba(255,71,68,0.4);
 	padding: 1em;
