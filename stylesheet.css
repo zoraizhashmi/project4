@@ -122,3 +122,27 @@ a {
     background-color: #2b1218;
     color: white;
 }
+
+.daramola1title {
+	background-color: rgba(255,71,68,0.4);
+	padding: 1em;
+	grid-column: 3/8;
+	grid-row: 1/2;
+	border: 1px black solid;
+}
+ 
+.daramola1int {
+	background-color: rgba(255,71,68,0.4);
+	padding: 1em;
+	grid-column: 3/8;
+	grid-row: 2/6;
+	border: 1px black solid;
+}  
+
+.daramola1map {
+	background-color: rgba(255,71,68,0.4);
+	padding: 1em;
+	grid-column: 3/8;
+	grid-row: 6/8;
+	border: 1px black solid;
+}  
